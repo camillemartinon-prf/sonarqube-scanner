@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 # We fix sonar version
-ENV SONAR_SCANNER_VERSION 3.3.0.1492
+ENV SONAR_SCANNER_VERSION 4.3.0.2102
 
 # We install the basics
 RUN apt-get -y update
