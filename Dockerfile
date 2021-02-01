@@ -1,7 +1,8 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # We fix sonar version
-ENV SONAR_SCANNER_VERSION 4.3.0.2102
+ENV SONAR_SCANNER_VERSION 4.5.0.2216
+ENV DEBIAN_FRONTEND=noninteractive
 
 # We install the basics
 RUN apt-get -y update
