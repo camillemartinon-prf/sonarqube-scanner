@@ -1,4 +1,4 @@
-FROM ubuntu:20.04.5
+FROM ubuntu:22.04
 
 # We fix sonar version
 ENV SONAR_SCANNER_VERSION 4.7.0.2747
